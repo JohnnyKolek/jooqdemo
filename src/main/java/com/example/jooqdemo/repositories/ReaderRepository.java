@@ -1,13 +1,10 @@
 package com.example.jooqdemo.repositories;
 
-import com.example.jooqdemo.model.Author;
 import com.example.jooqdemo.model.Reader;
 import lombok.AllArgsConstructor;
 import org.jooq.DSLContext;
 import org.jooq.Record;
 import org.jooq.Result;
-import org.jooq.SelectConditionStep;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

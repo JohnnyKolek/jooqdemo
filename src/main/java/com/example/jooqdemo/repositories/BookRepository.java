@@ -1,22 +1,19 @@
 package com.example.jooqdemo.repositories;
 
 
-import com.example.jooqdemo.generated.tables.records.BookRecord;
 import com.example.jooqdemo.model.Author;
+import com.example.jooqdemo.model.Book;
 import lombok.AllArgsConstructor;
 import org.jooq.DSLContext;
 import org.jooq.Record;
 import org.jooq.Result;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.example.jooqdemo.generated.tables.Book.BOOK;
 import static com.example.jooqdemo.generated.tables.Author.AUTHOR;
-import com.example.jooqdemo.model.Book;
-import org.springframework.web.bind.annotation.GetMapping;
+import static com.example.jooqdemo.generated.tables.Book.BOOK;
 
 @Repository
 @AllArgsConstructor

@@ -5,18 +5,17 @@ import lombok.AllArgsConstructor;
 import org.jooq.DSLContext;
 import org.jooq.Record;
 import org.jooq.Result;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.example.jooqdemo.generated.tables.Author.AUTHOR;
+import static com.example.jooqdemo.generated.tables.Book.BOOK;
+import static com.example.jooqdemo.generated.tables.BookCopy.BOOK_COPY;
 import static com.example.jooqdemo.generated.tables.Reader.READER;
 import static com.example.jooqdemo.generated.tables.Rental.RENTAL;
-import static com.example.jooqdemo.generated.tables.BookCopy.BOOK_COPY;
-import static com.example.jooqdemo.generated.tables.Book.BOOK;
-import static com.example.jooqdemo.generated.tables.Author.AUTHOR;
 
 @Repository
 @AllArgsConstructor

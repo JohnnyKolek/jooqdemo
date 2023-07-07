@@ -1,11 +1,8 @@
 package com.example.jooqdemo.rest;
 
-import com.example.jooqdemo.model.Book;
 import com.example.jooqdemo.model.BookCopy;
 import com.example.jooqdemo.repositories.BookCopyRepository;
-import com.example.jooqdemo.repositories.BookRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
